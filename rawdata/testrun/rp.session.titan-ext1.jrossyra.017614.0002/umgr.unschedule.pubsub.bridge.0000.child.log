@@ -1,0 +1,6 @@
+2018-03-23 23:08:42,943: umgr.unschedule.pubsub.bridge.0000.child: umgr.unschedule.pubsub.bridge.0000.child: MainThread     : INFO    : python.interpreter   version: 2.7.9 (default, May 6 2016, 10:34:30) [GCC 4.9.0 20140422 (Cray Inc.)]
+2018-03-23 23:08:42,946: umgr.unschedule.pubsub.bridge.0000.child: umgr.unschedule.pubsub.bridge.0000.child: MainThread     : INFO    :                      pid: 62680
+2018-03-23 23:08:42,946: umgr.unschedule.pubsub.bridge.0000.child: umgr.unschedule.pubsub.bridge.0000.child: MainThread     : INFO    :                      tid: MainThread
+2018-03-23 23:08:42,947: umgr.unschedule.pubsub.bridge.0000.child: umgr.unschedule.pubsub.bridge.0000.child: MainThread     : INFO    : radical.pilot        version: 0.47-0.47-24-g49f5f1b9@project-adaptivemd
+2018-03-23 23:08:42,947: umgr.unschedule.pubsub.bridge.0000.child: umgr.unschedule.pubsub.bridge.0000.child: MainThread     : INFO    : start bridge umgr.unschedule.pubsub.bridge.0000.child on tcp://*:*
+2018-03-23 23:08:42,950: umgr.unschedule.pubsub.bridge.0000.child: umgr.unschedule.pubsub.bridge.0000.child: MainThread     : INFO    : bound bridge umgr.unschedule.pubsub.bridge.0000.child to tcp://0.0.0.0:59653 : tcp://0.0.0.0:56400

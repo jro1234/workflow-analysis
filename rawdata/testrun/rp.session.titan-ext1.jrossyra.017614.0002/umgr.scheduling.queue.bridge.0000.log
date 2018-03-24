@@ -1,0 +1,67 @@
+2018-03-23 23:08:42,961: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : python.interpreter   version: 2.7.9 (default, May 6 2016, 10:34:30) [GCC 4.9.0 20140422 (Cray Inc.)]
+2018-03-23 23:08:42,964: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    :                      pid: 58846
+2018-03-23 23:08:42,964: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    :                      tid: MainThread
+2018-03-23 23:08:42,964: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : radical.pilot        version: 0.47-0.47-24-g49f5f1b9@project-adaptivemd
+2018-03-23 23:08:42,964: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : create umgr_scheduling_queue - bridge - tcp://*:*
+2018-03-23 23:08:42,965: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : start process
+2018-03-23 23:08:42,976: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000: MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-03-23 23:08:42,987: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : child (me) initializing
+2018-03-23 23:08:42,987: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : DEBUG   : parent name: umgr.scheduling.queue.bridge.0000.child.watch
+2018-03-23 23:08:42,987: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : DEBUG   : start thread
+2018-03-23 23:08:42,988: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: DEBUG   : child name: umgr.scheduling.queue.bridge.0000.child.watch.thread
+2018-03-23 23:08:42,988: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : child (me) initializing
+2018-03-23 23:08:42,988: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-03-23 23:08:42,988: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-03-23 23:08:42,988: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : send alive
+2018-03-23 23:08:42,988: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : put message: [umgr.scheduling.queue.bridge.0000.child.watch.thread] alive
+2018-03-23 23:08:42,989: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : get msg: alive
+2018-03-23 23:08:42,989: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-03-23 23:08:42,990: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-03-23 23:08:42,990: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : DEBUG   : child thread umgr.scheduling.queue.bridge.0000.child.watch started
+2018-03-23 23:08:42,990: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : child (me) is alive
+2018-03-23 23:08:42,990: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : send alive
+2018-03-23 23:08:42,990: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : send message: [umgr.scheduling.queue.bridge.0000.child] alive
+2018-03-23 23:08:42,990: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : recv message: alive
+2018-03-23 23:08:42,991: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-03-23 23:08:42,991: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-03-23 23:08:42,991: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : parent name: umgr.scheduling.queue.bridge.0000.watch
+2018-03-23 23:08:42,992: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : start thread
+2018-03-23 23:08:42,992: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: DEBUG   : child name: umgr.scheduling.queue.bridge.0000.watch.thread
+2018-03-23 23:08:42,992: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: INFO    : child (me) initializing
+2018-03-23 23:08:42,993: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-03-23 23:08:42,993: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-03-23 23:08:42,993: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: INFO    : send alive
+2018-03-23 23:08:42,993: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: INFO    : put message: [umgr.scheduling.queue.bridge.0000.watch.thread] alive
+2018-03-23 23:08:42,994: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : get msg: alive
+2018-03-23 23:08:42,994: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-03-23 23:08:42,994: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-03-23 23:08:42,994: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : child thread umgr.scheduling.queue.bridge.0000.watch started
+2018-03-23 23:08:42,994: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : child is alive
+2018-03-23 23:08:42,994: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : process class started child
+2018-03-23 23:11:41,159: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : parent stops child  58846 -> 62687 [umgr.scheduling.queue.bridge.0000]
+2018-03-23 23:11:41,160: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : send message: [umgr.scheduling.queue.bridge.0000] STOP
+2018-03-23 23:11:41,160: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-03-23 23:11:41,160: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : INFO    : parent stops child
+2018-03-23 23:11:41,161: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-03-23 23:11:41,160: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : recv message: STOP
+2018-03-23 23:11:41,161: umgr.scheduling.queue.bridge.0000: Process-1                       : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2018-03-23 23:11:41,161: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : message received: STOP
+2018-03-23 23:11:41,161: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : STOP received: STOP
+2018-03-23 23:11:41,161: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : watcher closes
+2018-03-23 23:11:41,161: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : put message: [umgr.scheduling.queue.bridge.0000.child.watch.thread] work finished
+2018-03-23 23:11:41,161: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-03-23 23:11:41,162: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-03-23 23:11:41,161: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: INFO    : recv message: 
+2018-03-23 23:11:41,162: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child.watch: INFO    : put message: [umgr.scheduling.queue.bridge.0000.child.watch.thread] terminating
+2018-03-23 23:11:41,162: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: INFO    : message received: 
+2018-03-23 23:11:41,162: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: WARNING : received empty string, parent closed ep
+2018-03-23 23:11:41,162: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: INFO    : watcher closes
+2018-03-23 23:11:41,162: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: INFO    : put message: [umgr.scheduling.queue.bridge.0000.watch.thread] work finished
+2018-03-23 23:11:41,163: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-03-23 23:11:41,163: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-03-23 23:11:41,163: umgr.scheduling.queue.bridge.0000: Process-1                       : umgr.scheduling.queue.bridge.0000.watch: INFO    : put message: [umgr.scheduling.queue.bridge.0000.watch.thread] terminating
+2018-03-23 23:11:41,766: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : send message: [umgr.scheduling.queue.bridge.0000.child] work finished
+2018-03-23 23:11:41,766: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2018-03-23 23:11:41,766: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : DEBUG   : ru_finalize_child (NOOP)
+2018-03-23 23:11:41,776: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : send message: [umgr.scheduling.queue.bridge.0000.child] terminating
+2018-03-23 23:11:41,776: umgr.scheduling.queue.bridge.0000: umgr.scheduling.queue.bridge.0000.child: MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate

@@ -1,0 +1,147 @@
+radical-analytics-wrangler.py -d rawdata/ -t testr -o rawdata/testrun/rp.session.titan-ext1.jrossyra.017614.0002/
+2018-03-24 11:52:06,593: radical.saga        : MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.9 (default, May 6 2016, 10:34:30) [GCC 4.9.0 20140422 (Cray Inc.)]
+2018-03-24 11:52:06,594: radical.saga        : MainProcess                     : MainThread     : INFO    :                      pid: 4269
+2018-03-24 11:52:06,594: radical.saga        : MainProcess                     : MainThread     : INFO    :                      tid: MainThread
+2018-03-24 11:52:06,594: radical.saga        : MainProcess                     : MainThread     : INFO    : radical.saga         version: 0.47-v0.46-38-g8b602364@project-adaptivemd
+2018-03-24 11:52:06,650: radical.pilot       : MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.9 (default, May 6 2016, 10:34:30) [GCC 4.9.0 20140422 (Cray Inc.)]
+2018-03-24 11:52:06,650: radical.pilot       : MainProcess                     : MainThread     : INFO    :                      pid: 4269
+2018-03-24 11:52:06,650: radical.pilot       : MainProcess                     : MainThread     : INFO    :                      tid: MainThread
+2018-03-24 11:52:07,153: radical.analytics   : MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.9 (default, May 6 2016, 10:34:30) [GCC 4.9.0 20140422 (Cray Inc.)]
+2018-03-24 11:52:07,153: radical.analytics   : MainProcess                     : MainThread     : INFO    :                      pid: 4269
+2018-03-24 11:52:07,153: radical.analytics   : MainProcess                     : MainThread     : INFO    :                      tid: MainThread
+2018-03-24 11:52:07,154: radical.analytics   : MainProcess                     : MainThread     : INFO    : radical.analytics    version: v0.45.2-101-g8358b08@devel
+
+
+Get raw sessions:
+ERROR: no session json in rawdata/testrun/rp.session.titan-ext1.jrossyra.017614.0003
+Skip rawdata/testrun/rp.session.titan-ext1.jrossyra.017614.0003
+Done.
+
+
+Marking sessions for wrangling:
+
+
+testrun -- rp.session.titan-ext1.jrossyra.017614.0002 -- Loading pilots:
+
+testrun --- rp.session.titan-ext1.jrossyra.017614.0002
+pilot.0000:
+ WARNING: Failed to get timestamp for state DONE
+ WARNING: Failed to get timestamp for state FAILED
+ P_PMGR_QUEUING util_p_uexec P_LRMS_RUNNING util_p_orte WARNING: Failed to calculate duration util_p_total
+ util_p_setup_1 util_p_setup_2 P_LRMS_SUBMITTING P_LRMS_QUEUING WARNING: Failed to calculate duration util_p_term
+ WARNING: Failed to calculate duration util_p_boot
+ P_PMGR_SCHEDULING
+stored in rawdata/testrun/rp.session.titan-ext1.jrossyra.017614.0002//pilots.csv.
+
+
+testrun -- rp.session.titan-ext1.jrossyra.017614.0002 -- Loading units:
+
+testrun --- rp.session.titan-ext1.jrossyra.017614.0002
+unit.000000:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000001:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000002:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000003:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000004:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000005:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000006:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000007:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000008:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+unit.000009:
+ util_u_exec_rp
+WARNING: Failed to calculate duration U_AGENT_QUEUING
+
+WARNING: Failed to calculate duration util_u_unschedule
+
+WARNING: Failed to calculate duration util_u_exec_orte
+ util_u_eprep util_u_exec_cu U_AGENT_SCHEDULING U_UMGR_SCHEDULING U_UMGR_BINDING util_u_total U_AGENT_QUEUING_EXEC U_AGENT_EXECUTING
+WARNING: Failed to calculate duration util_u_exec_app
+ util_u_equeue
+stored in rawdata/testrun/rp.session.titan-ext1.jrossyra.017614.0002//units.csv.
+
+
+testrun -- rp.session.titan-ext1.jrossyra.017614.0002 -- Loading session:
+
+
+testrun --- rp.session.titan-ext1.jrossyra.017614.0002
+stored in rawdata/testrun/rp.session.titan-ext1.jrossyra.017614.0002//sessions.csv

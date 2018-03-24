@@ -1,0 +1,29 @@
+2018-03-23 23:06:47,557 ::::: __main__ ::::: INFO |||||   Initializing Project named: testrun
+2018-03-23 23:06:47,558 ::::: __main__ ::::: INFO |||||   
+    >>>   Namespace(activate_prefix=None, all=10, clust_stride=1, environment=None, fixedlength=False, init_only=False, launch=False, length=500, longts=False, minlength=500, modeller='pyemma-ionic', msm_lag=20, msm_states=25, n_ext=1, n_rounds=1, n_traj=10, platform='CPU', project_name='testrun', prot=2, reinitialize=False, sampling_function='random_restart', strategy='run_admd.py', system_name='ntl9', template='run_admdrp.sh', threads=1, tica_dim=3, tica_lag=20, tica_stride=1, virtualenv='/lustre/atlas/proj-shared/bip149/jrossyra/admdrp/admdrpenv/bin/activate')
+
+2018-03-23 23:06:47,559 ::::: __main__ ::::: INFO |||||       >>>   TIMER Project opening 1521860807.55911
+2018-03-23 23:06:50,194 ::::: __main__ ::::: INFO |||||       >>>   TIMER Project opened 1521860810.19453
+2018-03-23 23:06:50,195 ::::: __main__ ::::: INFO |||||   AdaptiveMD dburl: mongodb://160.91.205.198:35332/
+2018-03-23 23:06:50,195 ::::: __main__ ::::: INFO |||||   Adding event to project from function: testrun, <function strategy_function at 0x2ba97e0b9c80>
+2018-03-23 23:06:50,356 ::::: __main__ ::::: INFO |||||   
+    >>>   n_steps: 500
+    >>>   n_workloads: 1
+    >>>   steprate: 300
+
+2018-03-23 23:06:50,608 ::::: __main__ ::::: INFO |||||   
+    >>>   Resource request arguments: 
+    >>>   cpus: 192
+    >>>   walltime: 11
+    >>>   gpus: 11
+
+2018-03-23 23:06:50,611 ::::: __main__ ::::: INFO |||||   n_rounds: 1
+2018-03-23 23:06:50,614 ::::: __main__ ::::: INFO |||||       >>>   TIMER Project event adding 1521860810.61487
+2018-03-23 23:06:51,518 ::::: __main__ ::::: INFO |||||       >>>   TIMER Project event added 1521860811.51852
+2018-03-23 23:06:51,519 ::::: __main__ ::::: INFO |||||   Triggering project
+2018-03-23 23:11:25,226 ::::: __main__ ::::: INFO |||||       >>>   TIMER Project event done 1521861085.22605
+2018-03-23 23:11:25,230 ::::: __main__ ::::: INFO |||||   Waiting for final state assignments to new states
+2018-03-23 23:11:26,231 ::::: __main__ ::::: INFO |||||   All new tasks finalized
+2018-03-23 23:11:26,231 ::::: __main__ ::::: INFO |||||       >>>   TIMER Project tasks checked 1521861086.23173
+2018-03-23 23:11:48,858 ::::: __main__ ::::: INFO |||||   Exiting Event Script
+2018-03-23 23:11:48,858 ::::: __main__ ::::: INFO |||||       >>>   TIMER Project closed 1521861108.85853

@@ -1,0 +1,36 @@
+2018-03-23 23:06:39,504 ::::: __run_admd ::::: INFO |||||   Set ADMD_DBURL to: mongodb://160.91.205.198:35332/
+2018-03-23 23:06:39,507 ::::: __run_admd ::::: INFO |||||   Project testrun exists, deleting it from database to reinialize
+2018-03-23 23:06:47,559 ::::: __run_admd ::::: INFO |||||   Set ADMD_DBURL to: mongodb://160.91.205.198:35332/
+2018-03-23 23:06:47,580 ::::: __run_admd ::::: INFO |||||   Project testrun exists, reading it from database
+2018-03-23 23:06:50,615 ::::: __run_admd ::::: INFO |||||       >>>   TIMER Brain enter 1521860810.61539
+2018-03-23 23:06:50,615 ::::: __run_admd ::::: INFO |||||   Got 1 for `cpu_threads`
+2018-03-23 23:06:50,615 ::::: __run_admd ::::: INFO |||||   Going to do n_rounds:  1
+2018-03-23 23:06:50,616 ::::: __run_admd ::::: INFO |||||   Using MD Engine: <adaptivemd.engine.openmm.openmm.OpenMMEngine object at 0x2ba97e8e7d90> openmm-2
+2018-03-23 23:06:50,616 ::::: __run_admd ::::: INFO |||||   Using fixed length? True
+2018-03-23 23:06:50,618 ::::: __run_admd ::::: INFO |||||   
+    >>>   Project models
+    >>>    - Number: 0
+
+2018-03-23 23:06:50,623 ::::: __run_admd ::::: INFO |||||   
+    >>>   Project trajectories
+    >>>    - Number: 0
+    >>>    - Lengths:
+    >>>   []
+
+2018-03-23 23:06:50,625 ::::: __run_admd ::::: INFO |||||       >>>   TIMER Brain first tasks define 1521860810.62547
+2018-03-23 23:06:50,633 ::::: __run_admd ::::: INFO |||||       >>>   TIMER Brain first tasks queue 1521860810.63313
+2018-03-23 23:06:50,716 ::::: __run_admd ::::: INFO |||||       >>>   TIMER Brain first tasks queued 1521860810.71617
+2018-03-23 23:06:50,716 ::::: __run_admd ::::: INFO |||||   Queued First Tasks in new project
+2018-03-23 23:06:50,716 ::::: __run_admd ::::: INFO |||||   
+    >>>   Trajectory lengths were: 
+    >>>   [500, 500, 500, 500, 500, 500, 500, 500, 500, 500]
+
+2018-03-23 23:11:15,211 ::::: __run_admd ::::: INFO |||||   First Tasks are done
+2018-03-23 23:11:15,212 ::::: __run_admd ::::: INFO |||||       >>>   TIMER Brain first tasks done 1521861075.21235
+2018-03-23 23:11:15,212 ::::: __run_admd ::::: INFO |||||   Starting Trajectory Extensions
+2018-03-23 23:11:15,212 ::::: __run_admd ::::: INFO |||||       >>>   TIMER Brain main loop enter 1521861075.21272
+2018-03-23 23:11:15,216 ::::: __run_admd ::::: INFO |||||   Waiting for all done
+2018-03-23 23:11:15,216 ::::: __run_admd ::::: INFO |||||       >>>   TIMER Brain finishing enter 1521861075.21681
+2018-03-23 23:11:15,223 ::::: __run_admd ::::: INFO |||||   All Tasks in Final States
+2018-03-23 23:11:15,223 ::::: __run_admd ::::: INFO |||||       >>>   TIMER Brain finishing done 1521861075.22333
+2018-03-23 23:11:20,223 ::::: __run_admd ::::: INFO |||||   Simulation Event Finished

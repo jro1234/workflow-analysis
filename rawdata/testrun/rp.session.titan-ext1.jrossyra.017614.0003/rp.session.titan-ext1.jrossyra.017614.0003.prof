@@ -1,0 +1,8 @@
+#time,event,comp,thread,uid,state,msg
+1521867196.6968,sync_abs,rp.session.titan-ext1.jrossyra.017614.0003,MainThread,,,titan-ext1.ccs.ornl.gov:127.0.0.1:1521867196.62:1521867196.68:ntp
+1521867196.7018,session_start,rp.session.titan-ext1.jrossyra.017614.0003,MainThread,rp.session.titan-ext1.jrossyra.017614.0003,,
+1521867196.7022,config_parser_start,rp.session.titan-ext1.jrossyra.017614.0003,MainThread,rp.session.titan-ext1.jrossyra.017614.0003,,
+1521867196.9890,config_parser_stop,rp.session.titan-ext1.jrossyra.017614.0003,MainThread,rp.session.titan-ext1.jrossyra.017614.0003,,
+1521867765.0748,session_close,rp.session.titan-ext1.jrossyra.017614.0003,MainThread,rp.session.titan-ext1.jrossyra.017614.0003,,
+1521867779.0746,session_stop,rp.session.titan-ext1.jrossyra.017614.0003,MainThread,rp.session.titan-ext1.jrossyra.017614.0003,,
+1521867779.0747,END,rp.session.titan-ext1.jrossyra.017614.0003,MainThread,,,

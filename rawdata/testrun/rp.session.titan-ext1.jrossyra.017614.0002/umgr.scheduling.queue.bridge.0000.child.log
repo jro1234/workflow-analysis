@@ -1,0 +1,8 @@
+2018-03-23 23:08:42,979: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : python.interpreter   version: 2.7.9 (default, May 6 2016, 10:34:30) [GCC 4.9.0 20140422 (Cray Inc.)]
+2018-03-23 23:08:42,983: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    :                      pid: 62687
+2018-03-23 23:08:42,983: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    :                      tid: MainThread
+2018-03-23 23:08:42,984: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : radical.pilot        version: 0.47-0.47-24-g49f5f1b9@project-adaptivemd
+2018-03-23 23:08:42,984: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : start bridge umgr.scheduling.queue.bridge.0000.child on tcp://*:*
+2018-03-23 23:08:42,986: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child: MainThread     : INFO    : bound bridge umgr.scheduling.queue.bridge.0000.child to tcp://0.0.0.0:44581 : tcp://0.0.0.0:43323
+2018-03-23 23:08:44,573: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child: MainThread     : DEBUG   : sent  1 [hwm: 1]
+2018-03-23 23:11:41,765: umgr.scheduling.queue.bridge.0000.child: umgr.scheduling.queue.bridge.0000.child: MainThread     : WARNING : not alive anymore?
